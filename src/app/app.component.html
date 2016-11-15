@@ -1,0 +1,15 @@
+<div class="ui container one column grid">
+  <div class="column">
+    <div class="ui info message">
+      <h1 class="title column">Products Demo</h1>
+    </div>
+  </div>
+  <div class="ui divider column"></div>
+  <div class="one column row">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="column">
+    <button (click)="logout()" *ngIf="authService.passBase64">Logout</button>
+  </div>
+
+</div>

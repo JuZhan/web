@@ -1,0 +1,11 @@
+<div class="ui raised segment two column grid" *ngFor='let product of products | async'>
+
+  <div class="column">Product ID:</div>
+  <div class="column">{{product.id}}</div>
+  <div class="column">Product Name:</div>
+  <div class="column">{{product.name}}</div>
+  <div class="column">Product Description:</div>
+  <div class="column">{{product.description}}</div>
+  <div class="column">Product Status:</div>
+  <div class="column">{{product.status}}</div>
+</div>

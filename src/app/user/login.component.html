@@ -1,0 +1,16 @@
+<div class="ui message">
+  <div class="header">Login</div>
+</div>
+<form class="ui form" *ngIf="!authService.passBase64">
+  <div class="field">
+    <label>Name</label>
+    <input type="text" required name="name" [(ngModel)]="name" placeholder="Name">
+  </div>
+  <div class="field">
+    <label>password</label>
+    <input type="password" required name="password" [(ngModel)]="password" placeholder="password">
+  </div>
+
+  <div (click)="login(name, password)" class="ui button">Submit</div>
+</form>
+
