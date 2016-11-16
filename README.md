@@ -1,5 +1,15 @@
 # WebDemo
 
+# npm
+ [What is npm](https://docs.npmjs.com/getting-started/what-is-npm)
+ [install](https://docs.npmjs.com/cli/install)
+
+# Angular2
+  [Quick Start](https://angular.cn/docs/ts/latest/quickstart.html)
+
+# Angular-cli
+  [Install](https://github.com/angular/angular-cli#installation)
+  
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
